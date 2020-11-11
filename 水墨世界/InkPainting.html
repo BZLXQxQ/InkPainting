@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>水墨世界</title>
+		<link rel="stylesheet" href="css/InkPainting.css" />
+	</head>
+	<body>
+		<div class="gallery-section">
+			<div class="inner-width">
+				<div class="border"></div>
+				<h1>序</h1>
+				<div class="border"></div>
+			</div>
+		</div>
+		<div id="bodyer" class="container">
+			<div class="card">
+				<div class="imgBx">
+					<img class="lazy" src="img/img7.jpg">
+				</div>
+				<div class="contentBx">
+					<div class="content">
+						<h2>艺术特征</h2>
+						<p>水墨画是中国汉族特色较强的一种绘画艺术形式，借助具有本民族特色的绘画工具和材料，表现具有意象和意境的绘画。具体地说就是将水、墨和宣纸的属性特征很好地体现出来，如水墨相调，出现干湿浓淡的层次;再有水墨和宣纸相融，产生溵湿渗透的特殊效果。由于水墨和宣纸的交融渗透，善于表现似像非像的物象特征，即意象。这种意象效果能使人产生丰富的遐想，符合"中国绘画注重意境"的审美理想。</p>
+					</div>
+				</div>
+			</div>
+			<div class="card">
+				<div class="imgBx">
+					<img class="lazy" src="img/img6.jpg">
+				</div>
+				<div class="contentBx">
+					<div class="content">
+						<h2>作画方式</h2>
+						<p>中国由古至 今，发明了多种绘画方法，最常见的是用画笔作画。以后更出现用口咬笔，脚趾握笔，双脚夹笔，腋夹笔，身体着墨(包括手指、脚趾、头发、手肘等部位),当代中国水墨画家在创作水墨画时,材料运用是广泛的,在非宣纸上创作水墨画成了潮流,如在衣服上,在人的身体上,题材上更是多样化,不仅限于山水花鸟,除抽象水墨外更扩展到行为艺术范畴。</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="gallery-section">
+			<div class="inner-width">
+				<div class="border"></div>
+				<h1>终</h1>
+				<div class="border"></div>
+			</div>
+		</div>
+		<div id="bodyer" class="container">
+			<div class="card">
+				<div class="imgBx">
+					<img class="lazy" src="img/true.png">
+				</div>
+				<div class="contentBx">
+					<div class="content">
+						<h2>《春夜雪再用韵十首》</h2>
+						<p>一色寰区水墨天，子无尘翳自天然。</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="bodyer2" class="gallery-section">
+			<div class="inner-width">
+				<div class="gallery">
+					<a href="img/img14.png" class="image">
+						<img src="img/img14.png" alt="" />
+					</a>
+					<a href="img/img11.jpg" class="image">
+						<img src="img/img11.jpg" alt="" />
+					</a>
+					<a href="img/img12.jpg" class="image">
+						<img src="img/img12.jpg" alt="" />
+					</a>
+				</div>
+				<div class="gallery">
+					<a href="img/img4.jpg" class="image">
+						<img src="img/img4.jpg" alt="" />
+					</a>
+					<a href="img/img5.jpg" class="image">
+						<img src="img/img5.jpg" alt="" />
+					</a>
+					<a href="img/img13.jpg" class="image">
+						<img src="img/img13.jpg" alt="" />
+					</a>
+				</div>
+			</div>
+		</div>
+		<div id="footer">
+			<a href="index.html" title="水墨世界"><p>©2020 水墨世界</p></a>
+			<div id="divBottom"></div>
+			<script type="text/javascript">
+			function date()
+			{
+			  var date=new Date();
+			  var year=date.getFullYear();
+			  var month=date.getMonth()+1;
+			  var day=date.getDate();
+			  var hour="00"+date.getHours();
+			    hour=hour.substr(hour.length-2);
+			  var minute="00"+date.getMinutes();
+			    minute=minute.substr(minute.length-2);
+			  var second="00"+date.getSeconds();
+			    second=second.substr(second.length-2);
+			  var week=date.getDay();
+			  switch(week)
+			  {
+			    case 1:week="星期一 ";break;
+			    case 2:week="星期二 ";break;
+			    case 3:week="星期三 ";break;
+			    case 4:week="星期四 ";break;
+			    case 5:week="星期五 ";break;
+			    case 6:week="星期六 ";break;
+			    case 0:week="星期日 ";break;
+			    default:week="";break;
+			  }
+			  document.getElementById("divBottom").innerHTML=year+"年"+month+"月"+day+"日"+" "+hour+":"+minute+":"+second+" "+week;
+			}
+			setInterval("date()",1000);
+			</script>
+		</div>
+	</body>
+</html>
